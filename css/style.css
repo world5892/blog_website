@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fefefe;
+  display: block;
+}
+
+body {
+  background: #333;
+  font-family: 'Lato', sans-serif;
+  color: #fefefe;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.main-header h1 {
+  font-size: 3rem;
+  color: #ddd;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 900;
+  margin: 50px 20px 40px;
+}
+
+.main-nav {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  font-size: 1.3rem;
+  height: 100%;
+  padding: 10px 0;
+  background: #1c74b2;
+}
+
+.navbar li {
+  border-right: 1.5px dotted #0a2b42;
+}
+
+.navbar li:last-of-type {
+  border: none;
+}
+
+.navbar a {
+  background: #1c74b2;
+  padding: 10px 40px;
+}
+
+.navbar a:hover {
+  color: #0a2b42;
+}
+
+.welcome {
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.philosophers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.philosophers figure {
+  margin: 15px 10px;
+}
+
+.philosophers a:hover {
+  opacity: 0.9;
+}
+
+.entries {
+  max-width: 100%;
+  background: #111;
+  padding-bottom: 20px;
+}
+
+.entries-content {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.entry {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #333;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: justify;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.entry img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact-content {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 30px;
+  text-align: center;
+  background: #111;
+}
+
+.social {
+  padding: 30px 80px;
+  height: 100%;
+}
+
+.main-footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Blog entry */
+
+.wrapper {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+
+}
+
+.wrapper-left {
+  width: 80%;
+  margin-right: 40px;
+}
+
+.wrapper-right {
+  width: 20%;
+  text-align: left;
+}
+
+.wrapper-right ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-content img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comment img {
+  margin: 20px 0 0px;
+}
+
+.comment p {
+  margin: 10px 0;
+}
+

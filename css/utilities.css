@@ -1,0 +1,57 @@
+.about {
+  padding: 50px 0 40px;
+}
+
+.blue {
+  color: #39a5f1;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.blue-secondary {
+  font-weight: 700;
+  color: #39a5f1;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.blue-h3 {
+  color: #39a5f1;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.btn {
+  padding: 15px 15px;
+  background: #1c74b2;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #2d85c3;
+}
+
+.bg-yt:hover {
+  background: #d94348;;
+}
+
+.bg-fb:hover {
+  background: #4668b3;
+}
+
+.bg-google:hover {
+  background: #d95333;
+}
+
+.bg-tw:hover {
+  background: #3095d3;
+}
+
+.margin-1 {
+  margin: 20px 0;
+}
